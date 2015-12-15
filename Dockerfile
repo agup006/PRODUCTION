@@ -1,4 +1,4 @@
-FROM wordpress:0.9
+FROM wordpress:2.0
 EXPOSE 80 3306
 # Volume for Apache Logs and MySQL Logs
 VOLUME ["/var/log/apache2/","/var/log/mysql"]
